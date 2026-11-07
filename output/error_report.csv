@@ -1,0 +1,12 @@
+error_type,member_id,name,detail
+missing_from_834,M0018,Isha Nair,Active in census but missing from 834
+missing_from_834,M0019,Nikhil Gupta,Active in census but missing from 834
+unexpected_in_834,M9999,ZOYA UNKNOWN,In 834 but not in census
+dob_mismatch,M0003,Amit Mehta,DOB census=1977-04-08 vs 834=1978-04-08
+dob_mismatch,M0010,Pooja Joshi,DOB census=1978-07-09 vs 834=1979-07-09
+start_date_mismatch,M0005,Karan Iyer,Start census=2026-12-01 vs 834=2026-12-15
+start_date_mismatch,M0016,Kavya Khan,Start census=2026-12-01 vs 834=2026-12-15
+terminated_but_active,M0027,Gaurav Reddy,"Terminated on 2026-10-31 in census, but 834 still shows active"
+terminated_but_active,M0028,Simran Nair,"Terminated on 2026-10-31 in census, but 834 still shows active"
+duplicate_records,M0020,TANVI JOSHI,Appears 2 times in the 834
+envelope_error,FILE,,"SE says 341 segments, but the file really has 343"
